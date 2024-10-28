@@ -15,8 +15,8 @@
 
   The L298D motor driver allows control of two DC motors. It uses an H-Bridge configuration,enabling the motor to rotate in both directions. The key feature for speed control is the enable pin, which is used to apply a PWM signal to control the motor speed.
   Results: two dc motors are controlled.
-  link to the video
-  ![](https://youtu.be/8QKm3JpX9DQ?si=Pcde7WJtFUFkycR-)
+ 
+  [ link to the video](https://youtu.be/8QKm3JpX9DQ?si=Pcde7WJtFUFkycR-)
   ***
   ## Task 3: Direction control
   The objective of this task was to to control the direction of a DC motor using the L298D driver with  Arduino. This task was pretty muchsimilar to the previous task but changes in the code were made.
@@ -28,32 +28,36 @@
   Result: temparature was detected and read on the serial monitor of Arduino IDE.
   ![](https://i.imgur.com/DEz1B5p.jpeg)
     ![](https://i.imgur.com/nzZjP7a.jpeg)
+    ![](https://i.imgur.com/m9bUH5a.jpeg)
   ***
-   ## Task 6: Temparature Humidity Detection
+   ## Task 7: Temparature and Humidity Detection
    DHT11 sensor was used in this task along with arduino. It uses a capacitive measurements and converts into digital signalsand thermistor for temparature detection. the working range of this is 0to 50 degrees.    
    Result: Temparature and humidity readings were displayed on the serial monitor.
    ![](https://i.imgur.com/SSANrip.jpeg)
     ![](https://i.imgur.com/nzZjP7a.jpeg)
+    ![](https://i.imgur.com/GViljyP.jpeg)
    ***
-   ## Task 6: Battery charging:
+    ## Task 8 - BLDC Motor And Hall Effect Sensor:
+   speed of a brushless dc motor was supposed to be determined in this task. For this, output from a Hall effect sensor was used. The A3144 sensor senses a magnet on the bldc motor and 
+   the output of the sensor is high .Arduino serial monitor reads the speed in the unit of rpm.
+    ![](https://i.imgur.com/tx8j343.jpeg)
+    ![](https://i.imgur.com/mVoalJI.jpeg)
+    ***
+   ## Task 10: Battery charging:
    A 3 volt Lithium ion battery was charged using a solar panel with a charging board interfacing between the battery and the panel.
-   Initial voltage andthe voltage after charging were observed on a multimeter.
+   Initial voltage andthe voltage after charging were observed on a multimeter.The TP4056 charging module acts as an interface. it follows the CC/CV method for effective charging.
     ![](https://i.imgur.com/3UINs50.jpeg)
+    ![TP4056 charging module](https://i.imgur.com/1OQPnde.jpeg)
    ***
-   ## Task 7:Understanding 555 Timer And LDR
+   ## Task 11:Understanding 555 Timer And LDR
    this task involved using a 555 ic and a Light-dependent resistor.It has a resistance of almost 1 mega ohm when it is in total darkness, but its resistance is about 5k ohms when 
   exposed to full brightness. 555 IC is used as a comparator. Output goes high when the non inverting output is greater than inverting output and vice versa.
    ![](https://i.imgur.com/y6IAFZO.jpeg)
    ![](https://i.imgur.com/LvL3sGK.jpeg)
    ***
-   ## Task 8 - BLDC Motor And Hall Effect Sensor:
-   speed of a brushless dc motor was supposed to be determined in this task. For this, output from a Hall effect sensor was used. The A3144 sensor senses a magnet on the bldc motor and 
-   the output of the sensor is high .Arduino serial monitor reads the speed in the unit of rpm.
-    ![](https://i.imgur.com/tx8j343.jpeg)
-
   ## Task 12: Solar panel
   The objective of this task was to understand the working principle of a solar panel. Semiconductor diodes were used in forward biased condition and connected parallely and checked for 
-  voltage produced across the setup.It was experimentally noticed that voltage output was higher when diodes were connected in  parallely than in series. 
+  voltage produced across the setup.It was experimentally noticed that voltage output was higher when diodes were connected in series than in parallel. 
   ![](https://i.imgur.com/ZTMEzT7.jpeg)
   ***
   ## Task 13 - Solar Tracker
