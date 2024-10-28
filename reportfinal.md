@@ -37,7 +37,7 @@
     ![](https://i.imgur.com/nzZjP7a.jpeg)
     ![](https://i.imgur.com/GViljyP.jpeg)
    ***
-    ## Task 8 - BLDC Motor And Hall Effect Sensor:
+   ## Task 8 - BLDC Motor And Hall Effect Sensor:
    speed of a brushless dc motor was supposed to be determined in this task. For this, output from a Hall effect sensor was used. The A3144 sensor senses a magnet on the bldc motor and 
    the output of the sensor is high .Arduino serial monitor reads the speed in the unit of rpm.
     ![](https://i.imgur.com/tx8j343.jpeg)
